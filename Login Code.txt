@@ -1,0 +1,16 @@
+//login
+if (textBox1.Text == "Key in here")
+{
+    MessageBox.Show("Gracias por usar esta aplicación!");
+    this.Hide();
+    Form2 main = new Form2();
+    main.Show();
+}
+else
+{
+    MessageBox.Show("Invalido");
+}
+
+//abrir pagina
+
+System.Diagnostics.Process.Start("URL A TU PASTEBIN/githubraw");
